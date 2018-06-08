@@ -1,0 +1,27 @@
+{
+  "name": "auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nexmo": "^2.3.0",
+    "ocr-space-api": "^1.0.1",
+    "puppeteer": "^1.4.0",
+    "readline-sync": "^1.4.9",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasha00786/automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasha00786/automation/issues"
+  },
+  "homepage": "https://github.com/pasha00786/automation#readme"
+}
