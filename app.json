@@ -1,0 +1,24 @@
+{
+  "name": "auto-heroku",
+  "description": "Each pull we can see here before enabling it to autogo-pro",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+    }
+  ]
+}
